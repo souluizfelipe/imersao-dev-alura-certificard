@@ -1,0 +1,53 @@
+body {
+    background-color: #fed845;
+}
+
+header {
+    background-image: url('https://i.pinimg.com/originals/0e/4e/a4/0e4ea4c4260bad5c8439626bd9be5c7a.jpg');
+    background-size: cover;
+    height: 200px;
+    background-position-y: center;
+}
+
+section {
+    background-color: white;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 700px;
+    border-radius: 10px;
+    padding: 10px;
+    /* -webkit-box-shadow: 5px 5px 0px 1px rgba(0,0,0,0.1);  */
+    box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.1);
+}
+
+section h1 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    
+}
+
+img {
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 150px;
+    height: 150px;
+    transform: translateY(-50%);
+    border: 10px solid #fff;
+}
+
+div {
+    background-color: rgba(224, 222, 222, 0.432);
+    font-family: 'Roboto', sans-serif;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+div h2 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;   
+}
